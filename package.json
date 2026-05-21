@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "postcss main.css -o .output.css --watch",
+    "build": "postcss main.css -o output.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.4.19"
+  }
+}
