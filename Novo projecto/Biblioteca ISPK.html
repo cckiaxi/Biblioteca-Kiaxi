@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca ISPK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Menu de Navegação -->
+    <header class="navbar">
+        <div class="logo">Biblioteca ISPK</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#Livros">Livros</a></li>
+                <li><a href="#Sobre Nós">Sobre Nós</a></li>
+                <li><a href="#Ajuda">Ajuda</a></li>
+            </ul>
+        </nav>
+        <button class="btn-dark" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <!-- Secção Principal (Hero) -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <h1>Comece a ler agora!</h1>
+            <p>Livros são registros do conhecimento humano acumulado ao longo de séculos. Seja através de ficção, biografias, filosofia ou manuais técnicos, a leitura oferece acesso direto a novas ideias e perspectivas. Isso alimenta o pensamento crítico: você passa a questionar mais, analisar cenários por diferentes ângulos e tomar decisões mais fundamentadas.</p>
+            <div class="hero-buttons">
+                <a href="#funcionalidades" class="btn-primary">Saber Mais</a>
+                <a href="#contacto" class="btn-secondary">Começar a ler agora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secção de Funcionalidades/Diferenciais -->
+    <section id="funcionalidades" class="features-section">
+    <h2 class="section-title">Porquê a leitura é importante?</h2>
+    <div class="features-grid">
+        <div class="feature-card">
+            <h3>Alta Performance</h3>
+            <p>A leitura expande o vocabulário, melhora a escrita e acelera a absorção de novas ideias.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Foco disciplinado</h3>
+            <p>O hábito de ler treina a mente para manter a atenção concentrada e evita distrações.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Conexão com ideias</h3>
+            <p>Os livros abrem portas para o conhecimento do mundo e estimulam o pensamento crítico.</p>
+        </div>
+    </div>
+</section>
+    </section>
+
+    <!-- Secção de Contacto -->
+    <section id="contacto" class="contact-section">
+        <div class="contact-container">
+            <h2>Qual livro não pode faltar na nossa Biblioteca?</h2>
+            <p>Nos ajude a melhorar enviando-nos uma mensagem rápida.</p>
+            
+            <form id="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" required placeholder="Seu Nome">
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder="Seu E-mail">
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="4" required placeholder="Sua Mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+            <div id="form-feedback" class="hidden"></div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 BIBLIOTECA ISPK. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
