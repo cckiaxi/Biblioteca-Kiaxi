@@ -1,15 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Olá mundo!</h1>
-
-    <div>
-        <p>Teste de alteração no git </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href=".output.css" />
+  </head>
+  <!-- Font Awesome - Site pra icones/Font -->
+  <!-- npx tailwindcss -i ./Estilo/estilo.css -o ./Estilo/output.css --watch -->
+  <body class="">
+    <div class="bg-gray-500 min-h-screen px-6 py-3 text-white flex flex-col gap-10 md:px-10 lg:px-16 lg:py-7">
+      <header class="flex justify-between">
+        <a class="flex items-center" href="">
+          <h1 class="text-4xl font-bold">ISPK</h1>
+        </a>
+        <ul class="hidden lg:flex lg:items-center lg:font-medium lg:gap-10 lg:text-white">
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Livros</a></li>
+            <li><a href="">Sobre nós</a></li>
+            <li><a href="">Ajuda</a></li>
+        </ul>
+        <div class="hidden lg:flex lg:items-center lg:font-medium lg:gap-10 lg:text-white">
+            <a href="">Login</a>
+            <button class="bg-purple-900 px-2 py-1 font-medium rounded-md">Registro</button>
+        </div>
+        <div class="lg:hidden">
+          <!-- Imagem Menu -->
+          <img src="Imagens/icons8-menu-50.png" alt="">
+        </div>
+      </header>
+      <main class="lg:flex">
+        <div class="flex items-center justify-center lg:flex-1 lg:order-2 lg:justify-end">
+          <img
+            src="Imagens/livro.jpg"
+            class="outline outline-white shadow-2xl shadow-black lg:h-[400px] lg:w-[400px] lg:rounded-full"
+            alt=""
+          />
+        </div>
+        <div class="space-y-6 mt-16 lg:flex-1 lg:order-1 lg:mt-32">
+          <div class="text-7xl font-bold leading-tight text-white">
+            <h1>Leia. Descubra.</h1>
+            <h1>Transforme-se.</h1>
+          </div>
+          <p>
+            Aceda a um universo literário sem limites e cultive o hábito que molda os grandes 
+            líderes e pensadores. Na nossa biblioteca, reunimos os maiores saberes da humanidade num espaço 
+            desenhado para inspirar o seu foco, acelerar o seu aprendizado e conectar uma comunidade apaixonada pela leitura
+          </p>   
+        </div>
+      </main>
     </div>
-</body>
+    <div class="flex flex-col">
+      <h1 class="text-blue-500 mt-32 text-center mb-16">Livros mais pesquisados</h1>
+      <div class="flex items-center space-x-6 justify-center mb-16">
+        <div>
+          <img class="h-64 w-64" src="Imagens/livro1.png" alt="" srcset="">
+        </div>
+        <div>
+          <img class="h-64 w-64" src="Imagens/livro1.png" alt="" srcset="">
+        </div>
+        <div>
+          <img class="h-64 w-64" src="Imagens/livro1.png" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+    <!-- <footer class="bg-blue-500">
+      a
+    </footer> -->
+  </body>
 </html>
