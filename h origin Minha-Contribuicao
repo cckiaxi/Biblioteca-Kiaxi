@@ -1,0 +1,44 @@
+*   [33m5c3f1bf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mMinha-Contribuicao[m[33m, [m[1;31mupstream/master[m[33m, [m[1;31morigin/Minha-Contribuicao[m[33m)[m Merge pull request #14 from CarlosPereira233/Minhacontribuicao,CarlosPereira
+[31m|[m[32m\[m  
+[31m|[m * [33m29e8392[m Criação da Tela de login e de Cadastro
+* [32m|[m   [33mfc45464[m Merge pull request #16 from silasmanuel17-hub/criaçãodaclassealuno
+[33m|[m[34m\[m [32m\[m  
+[33m|[m * [32m|[m [33mcbaa1c7[m Criação das classes aluno e livro. Nsilo Manuel
+[33m|[m[33m/[m [32m/[m  
+* [32m|[m   [33mddeae25[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Merge pull request #15 from cckiaxi/miguelbamby-patch-1
+[35m|[m[36m\[m [32m\[m  
+[35m|[m * [32m|[m [33m12f6cdb[m[33m ([m[1;31mupstream/miguelbamby-patch-1[m[33m)[m Entrega do projecto
+* [36m|[m [32m|[m [33md3ead1b[m Add files via upload
+[32m|[m [36m|[m[32m/[m  
+[32m|[m[32m/[m[36m|[m   
+[32m|[m [36m|[m *   [33meb479c5[m[33m ([m[1;31mupstream/contribuicao-manuel-henriques[m[33m)[m Merge pull request #11 from cckiaxi/master
+[32m|[m [36m|[m [1;31m|[m[32m\[m  
+[32m|[m [36m|[m[32m_[m[1;31m|[m[32m/[m  
+[32m|[m[32m/[m[36m|[m [1;31m|[m   
+* [36m|[m [1;31m|[m   [33m103a491[m Merge pull request #13 from cckiaxi/minha-contribuicao
+[36m|[m[1;34m\[m [36m\[m [1;31m\[m  
+[36m|[m [1;34m|[m[36m/[m [1;31m/[m  
+[36m|[m[36m/[m[1;34m|[m [1;31m|[m   
+[36m|[m * [1;31m|[m [33m37f1f48[m[33m ([m[1;31mupstream/minha-contribuicao[m[33m)[m Remover imagem desnecessária
+[36m|[m * [1;31m|[m [33md4397fa[m Melhoria do index.html - título, footer e legendas das imagens
+[36m|[m * [1;31m|[m [33m3fdcb44[m Contribuição de Manuel
+[36m|[m[36m/[m [1;31m/[m  
+* [1;31m|[m   [33m031dc11[m Merge pull request #10 from GebrilManuelCodes/feature/landing-page-Gebril
+[1;35m|[m[1;36m\[m [1;31m\[m  
+[1;35m|[m * [1;31m|[m [33mddaad61[m Criação da landing page
+[1;35m|[m * [1;31m|[m [33m1bb05a5[m Criação da landing page
+[1;35m|[m[1;35m/[m [1;31m/[m  
+* [1;31m|[m [33m0cd4332[m Merge pull request #7 from cckiaxi/contribuicao-manuel-henriques
+[31m|[m[1;31m\[m[1;31m|[m 
+[31m|[m * [33mb1b8f37[m Adiciona contribuição de Manuel Henriques
+[31m|[m[31m/[m  
+* [33m9e93c02[m[33m ([m[1;31mupstream/manuel-henriques[m[33m)[m Fix formatting and update objectives section in README
+* [33m08cfb5e[m Enhance README with project details and goals
+* [33mac0fa3b[m Update README.md
+* [33mcb1a153[m Create README.md
+* [33mbe2f46f[m coloquei um esov
+* [33m23addd0[m Create Contas.xlsx
+* [33mb8eb3b5[m Nova div para as mensagens e notificação no doc
+* [33m507f429[m Adição dos arquivos necessário
+* [33ma1a8b17[m Criação da pagina incial
+* [33ma1c54b5[m[33m ([m[1;31mupstream/main[m[33m)[m Criação da landing page
