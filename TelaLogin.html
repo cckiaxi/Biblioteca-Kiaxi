@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones do Google (Material Icons) para o olho da senha -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h2>Bem-vindo de volta</h2>
+            <p>Por favor, insira seus dados para acessar sua conta.</p>
+        </div>
+        
+        <form class="login-form">
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="seu@email.com" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password" placeholder="••••••••" required>
+                    <span class="material-icons toggle-password" onclick="togglePassword()">visibility</span>
+                </div>
+            </div>
+            
+            <div class="form-actions">
+                <label class="remember-me">
+                    <input type="checkbox"> Lembrar de mim
+                </label>
+                <a href="#" class="forgot-password">Esqueceu a senha?</a>
+            </div>
+            
+            <button type="submit" class="btn-login">Entrar</button>
+        </form>
+        
+        <div class="login-footer">
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
