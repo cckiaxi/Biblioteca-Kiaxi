@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Kiaxi - Serviço de Empréstimos</title>
+    <!-- Tailwind CSS para um design moderno e rápido -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Barra de Navegação Simples -->
+    <nav class="bg-blue-600 text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">Biblioteca Kiaxi</h1>
+            <div class="space-x-4">
+                <a href="index.html" class="hover:underline">Início</a>
+                <a href="login.html" class="hover:underline">Sair</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="container mx-auto my-10 px-4 max-w-lg">
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold text-gray-800 mb-2 text-center">Solicitar Empréstimo de Livro</h2>
+            <p class="text-gray-600 text-sm mb-6 text-center">Preencha os dados abaixo para reservar ou retirar um exemplar.</p>
+
+            <form action="#" method="POST" class="space-y-4">
+                <!-- Dados do Aluno -->
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-1">Nome do Estudante</label>
+                    <input type="text" placeholder="Ex: Carlos Mendes" required 
+                        class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+
+                <!-- Seleção do Livro -->
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-1">Título do Livro</label>
+                    <input type="text" placeholder="Ex: Engenharia de Software com C#" required 
+                        class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+
+                <!-- Código do Livro / ISBN -->
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-1">Código do Livro (ISBN / Registro)</label>
+                    <input type="text" placeholder="Ex: KIAXI-9030-2026" required 
+                        class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+
+                <!-- Datas -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-1">Data de Retirada</label>
+                        <input type="date" required 
+                            class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-1">Devolução Prevista</label>
+                        <input type="date" required 
+                            class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="flex items-start items-center pt-2">
+                    <input type="checkbox" id="termo" required class="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                    <label for="termo" class="ml-2 text-sm text-gray-600">Declaro compromisso em entregar o livro sem rasuras ou atrasos.</label>
+                </div>
+
+                <!-- Botão de Envio -->
+                <button type="submit" 
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-200 shadow-md">
+                    Confirmar Solicitação de Empréstimo
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="text-center text-gray-500 text-sm mt-10 pb-5">
+        &copy; 2026 & Instituto Superior Privado Kiaxi.
+    </footer>
+
+</body>
+</html>
